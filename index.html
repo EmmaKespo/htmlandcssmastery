@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="#" >
+<style>
+    .page-layout {
+        display: flex;
+        gap: 2rem;
+    }
+    .main-content {
+        flex: 3;
+    }
+    .side-bar {
+        flex: 1;
+    }
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
+</style>
+</head>
+<body>
+ <header class="site-header">
+      <div class="logo" >
+        <img src="images/logo.png" alt="my-company-logo" >
+      </div>
+      <nav class="main-nav">
+        <ul>
+            <li><a href="#">home</a> </li>
+            <li><a href="#">services</a> </li>
+            <li><a href="#">contact</a> </li>
+        </ul>
+      </nav>
+ </header>
+<div class="page-layout" >
+    <main class="main-content" >
+        <section class="hero">
+            <h1>wecome to my website</h1>
+            <p>this is the main introduction section</p>
+            <img src="images/hero.jpg" alt="main visual" class="hero-image">
+        </section>
+        <section class="content">
+            <div class="content-box">
+                <h2>About us</h2>
+                <p>we build clean and mordern web experience.</p>
+            </div>
+            <div class="content-box">
+                <h2>Our mission</h2>
+                <p>Learning, building and growing step by step.</p>
+            </div>
+        </section>
+    </main>
+    <aside class="sidebar">
+        <div class="side-box">
+            <h3>Quick links</h3>
+            <ul>
+                <li><a href="#">Ducumentation</a> </li>
+                <li><a href="#">Tutorials</a> </li>
+                <li><a href="#">Resources</a> </li>
+            </ul>
+            <div class="sidebox" >
+                <h3>update</h3>
+                <p>New feautures coming soon</p>
+            </div>
+        </div>
+    </aside>
+</div>     
+<footer class="site-footer">
+    <p>copy right 2026 my project</p>
+    <script src="js/script.js"></script>
+</footer>
+</body>
+</html>
