@@ -1,0 +1,15 @@
+.page-layout {
+        display: flex;
+        gap: 2rem;
+    }
+    .main-content {
+        flex: 3;
+    }
+    .side-bar {
+        flex: 1;
+    }
+    .hero-image {
+        max-width: 100%;
+        height: auto;
+        margin-top: 1rem;
+    }
