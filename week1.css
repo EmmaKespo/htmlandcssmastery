@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+ .main-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    margin-left: 20px;
+}
+ul a {
+    text-decoration: none;
+}
+ul a:hover {
+    background-color: blue;
+}
+.main-content-1 {
+    text-align: center;
+    background-color: rgb(132, 179, 23);   
+}
+.main-content-1 button {
+    border-radius: 5px;
+}
+.main-content-2 {
+    text-align: center;
+}
+.content-2 {
+     display: inline-flex;
+     margin: 5px 10px 5px 10px;
+     gap: 10px;
+}
+.content-2 .content-201 {
+    border: 1px solid rgb(114, 80, 17);
+    border-radius: 5px;
+}
+.content-2 .content-202 {
+      border: 1px solid rgb(114, 80, 17);
+    border-radius: 5px;
+}
+.content-2 .content-203 {
+    border: 1px solid rgb(114, 80, 17);
+    border-radius: 5px;
+}
+.main-content-3 {
+    display: flex;
+    gap: 20px;
+    background-color: greenyellow;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.main-content-4 {
+    text-align: center;
+    border: 0.5px solid burlywood;
+    margin-top: 10px;
+}
+.content-4 {
+  display: flex;
+  flex-wrap: nowrap;
+}
