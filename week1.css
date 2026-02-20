@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 5px 10px 5px 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -60,15 +60,77 @@ ul a:hover {
     display: flex;
     gap: 20px;
     background-color: greenyellow;
-    justify-content: space-between;
-    margin-top: 10px;
+    justify-content: space-around;
+    margin-top: 10px 30px 10px 30px;
+    padding: auto 20px auto 20px;
 }
 .main-content-4 {
     text-align: center;
     border: 0.5px solid burlywood;
     margin-top: 10px;
+    border-radius: 8px;
 }
 .content-4 {
   display: flex;
   flex-wrap: nowrap;
 }
+.content04 {
+    border: 1px solid peru;
+    border-radius: 12px;
+}
+.main-content-5 {
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 10px;
+}
+.content-501 {
+    border-left: 1px solid burlywood;
+    border-radius: 8px;
+}
+.content-501 button {
+    margin: 5px;
+}
+.content-502 {
+    border-left: 1px solid burlywood;
+    border-radius: 8px;
+}
+.main-content-6 {
+    text-align: center;
+    padding-top: 20px;
+    line-height: -0.1px;
+    text-decoration: none;
+}
+.main-content-6 .content-6 {
+    display: flex;
+    gap: 15px;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    margin: auto 40px;
+}
+ .main-content-6 .content-601 a {
+    text-decoration: none;
+}
+.main-content-6 .content-601 {
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    width: 90em;
+    margin-top: 20px;
+}
+.main-section-7 {
+    background-color: aquamarine;
+     padding: 10px;
+     margin-top: 20px;
+}
+.main-section-7 .section-7 {
+    display: flex;
+    flex-direction: row;
+}
+.main-section-7 .section-7 .left-side {
+    
+}
+
+
+
+
+
